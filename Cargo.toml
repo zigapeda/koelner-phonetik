@@ -1,0 +1,16 @@
+[package]
+name = "koelner-phonetik"
+version = "0.1.0"
+authors = ["Daniel Elstner <daniel.elstner@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/zigapeda/koelner-phonetik"
+description = "koelner_phonetik or cologne phonetics is a phonetic algorithm like soundex, but specialized for german words."
+keywords = ["phonetik-algorithm"]
+categories = ["text-processing"]
+edition = "2018"
+include = ["src/", "LICENSE", "README.md"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
