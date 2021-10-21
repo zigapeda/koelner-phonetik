@@ -108,7 +108,6 @@ mod tests {
         assert_eq!(calculate("Müller-Lüdenscheidt"), "65752682");
         assert_eq!(calculate("Heinz Classen"), "068 4586");
         assert_eq!(calculate("Heinz-Classen"), "068586");
-        assert_eq!(calculate("Testname"), "28266");
         assert_eq!(calculate("Acht"), "042");
         assert_eq!(calculate("Affe"), "03");
         assert_eq!(calculate("Ameise"), "068");
